@@ -1,0 +1,25 @@
+<%= form_for(@person) do |f| %>
+  <% if @person.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@person.errors.count, "error") %> prohibited this person from being saved:</h2>
+      <ul>
+      <% @person.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <%= submit_tag "Add address", :type => 'button', :id => 'addAddress', :onclick => 'addAddressField()' %> 
+  <br>
+  <div id="addressHeader" style="display:none">Address information: </div>
+  <br>
+  <ul id="myList">
+  </ul>
+  <div class="actions">
+    <%= f.submit "Create Person and Addresses" %>
+  </div>
+<% end %>
