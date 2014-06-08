@@ -1,3 +1,7 @@
 
-This is nested_forms project for Jyrki's blog "Adding Fields on the Fly" with Ruby on Rails Nested Forms.
+This is nested_forms project for Jyrki's blog 
+"Adding Fields on the Fly" with Ruby on Rails Nested Forms.
+
+Link for my Blog:
+https://jyrkis-blogs.blogspot.com
 
