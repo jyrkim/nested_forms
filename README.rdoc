@@ -2,6 +2,6 @@
 This is nested_forms project for Jyrki's blog 
 "Adding Fields on the Fly" with Ruby on Rails Nested Forms.
 
-Link for my Blog:
+Link for my blog:
 https://jyrkis-blogs.blogspot.com
 
